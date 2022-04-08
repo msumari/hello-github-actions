@@ -8,7 +8,7 @@ inputs:
     default: "world"
 runs:
   using: "docker"
-  image: "DOckerfile"
+  image: "Dockerfile"
 branding:
   icon: "mic"
   color: "purple"
