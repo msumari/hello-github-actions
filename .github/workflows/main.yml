@@ -1,11 +1,11 @@
-name: A test workflow
+name: test workflow
 on: push
 jobs:
   build:
-    name: Hello world actions
+    name: hello world actions
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
         with:
-          MY_NAME: "Suley"
+          MY_NAME: "suley"
